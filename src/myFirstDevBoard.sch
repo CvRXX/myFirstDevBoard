@@ -119,7 +119,7 @@ U 1 1 5C6B0551
 P 6000 2150
 F 0 "Q1" H 5750 2400 50  0000 L CNN
 F 1 "BC550" H 5700 2300 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6200 2075 50  0001 L CIN
+F 2 "lib:TO-92_Inline_Wide_oval" H 6200 2075 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6000 2150 50  0001 L CNN
 	1    6000 2150
 	-1   0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 5C6B0A7B
 P 6550 2150
 F 0 "Q2" H 6400 2300 50  0000 L CNN
 F 1 "BC550" H 6350 2400 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6750 2075 50  0001 L CIN
+F 2 "lib:TO-92_Inline_Wide_oval" H 6750 2075 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6550 2150 50  0001 L CNN
 	1    6550 2150
 	-1   0    0    -1  
@@ -141,7 +141,7 @@ U 1 1 5C6B0CD2
 P 7100 2150
 F 0 "Q3" H 6900 2400 50  0000 L CNN
 F 1 "BC550" H 6800 2300 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 2075 50  0001 L CIN
+F 2 "lib:TO-92_Inline_Wide_oval" H 7300 2075 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7100 2150 50  0001 L CNN
 	1    7100 2150
 	-1   0    0    -1  
@@ -548,7 +548,7 @@ Text Label 4200 4750 2    50   ~ 0
 sw5
 Text Label 4200 5300 2    50   ~ 0
 sw6
-Text Label 9650 2650 0    50   ~ 0
+Text Label 9650 2850 0    50   ~ 0
 sw5
 Text Label 9650 2750 0    50   ~ 0
 sw6
@@ -727,11 +727,11 @@ Text Label 9150 5150 0    50   ~ 0
 sw3
 Text Label 9150 5050 0    50   ~ 0
 sw4
-Text Label 9150 4950 0    50   ~ 0
+Text Label 9150 4750 0    50   ~ 0
 sw5
 Text Label 9150 4850 0    50   ~ 0
 sw6
-Text Label 9150 4750 0    50   ~ 0
+Text Label 9150 4950 0    50   ~ 0
 led9
 $Comp
 L power:+5V #PWR0104
@@ -915,7 +915,7 @@ Text Notes 8150 950  0    50   ~ 0
 Microcontroller
 Text Notes 6800 1000 0    50   ~ 0
 Leds
-Text Label 9650 2850 0    50   ~ 0
+Text Label 9650 2650 0    50   ~ 0
 led9
 $Comp
 L Device:LED_BGRA D9
