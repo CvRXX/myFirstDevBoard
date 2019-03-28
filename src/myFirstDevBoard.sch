@@ -648,115 +648,115 @@ Wire Notes Line
 $Comp
 L Connector:Conn_01x15_Male J2
 U 1 1 5C72C3CC
-P 9600 4850
-F 0 "J2" H 9700 5850 50  0000 C CNN
-F 1 "Conn_01x15_Male" H 9700 5700 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 9600 4850 50  0001 C CNN
-F 3 "~" H 9600 4850 50  0001 C CNN
-	1    9600 4850
+P 9600 5050
+F 0 "J2" H 9700 6050 50  0000 C CNN
+F 1 "Conn_01x15_Male" H 9700 5900 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 9600 5050 50  0001 C CNN
+F 3 "~" H 9600 5050 50  0001 C CNN
+	1    9600 5050
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x15_Male J1
 U 1 1 5C72C460
-P 9100 4850
-F 0 "J1" H 9250 3850 50  0000 R CNN
-F 1 "Conn_01x15_Male" H 9550 4000 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 9100 4850 50  0001 C CNN
-F 3 "~" H 9100 4850 50  0001 C CNN
-	1    9100 4850
+P 9100 5050
+F 0 "J1" H 9250 4050 50  0000 R CNN
+F 1 "Conn_01x15_Male" H 9550 4200 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 9100 5050 50  0001 C CNN
+F 3 "~" H 9100 5050 50  0001 C CNN
+	1    9100 5050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5C72D1CA
-P 8750 4450
-F 0 "#PWR0102" H 8750 4200 50  0001 C CNN
-F 1 "GND" V 8755 4322 50  0000 R CNN
-F 2 "" H 8750 4450 50  0001 C CNN
-F 3 "" H 8750 4450 50  0001 C CNN
-	1    8750 4450
+P 8750 4650
+F 0 "#PWR0102" H 8750 4400 50  0001 C CNN
+F 1 "GND" V 8755 4522 50  0000 R CNN
+F 2 "" H 8750 4650 50  0001 C CNN
+F 3 "" H 8750 4650 50  0001 C CNN
+	1    8750 4650
 	0    1    1    0   
 $EndComp
-Text Label 8900 4550 2    50   ~ 0
+Text Label 8900 4750 2    50   ~ 0
 led1
 Wire Wire Line
-	8750 4450 8900 4450
-Text Label 8900 4650 2    50   ~ 0
-buzzer
-Text Label 8900 4750 2    50   ~ 0
-led2
+	8750 4650 8900 4650
 Text Label 8900 4850 2    50   ~ 0
-led3
+buzzer
 Text Label 8900 4950 2    50   ~ 0
-led4
+led2
 Text Label 8900 5050 2    50   ~ 0
-led5
+led3
 Text Label 8900 5150 2    50   ~ 0
-led6
+led4
 Text Label 8900 5250 2    50   ~ 0
-led7
+led5
 Text Label 8900 5350 2    50   ~ 0
-led8
+led6
 Text Label 8900 5450 2    50   ~ 0
-blue
+led7
 Text Label 8900 5550 2    50   ~ 0
+led8
+Text Label 8900 5650 2    50   ~ 0
+blue
+Text Label 8900 5750 2    50   ~ 0
 green
-Text Label 9800 5550 0    50   ~ 0
+Text Label 9800 5750 0    50   ~ 0
 red
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5C73459D
-P 9950 5450
-F 0 "#PWR0103" H 9950 5300 50  0001 C CNN
-F 1 "+3.3V" V 9965 5578 50  0000 L CNN
-F 2 "" H 9950 5450 50  0001 C CNN
-F 3 "" H 9950 5450 50  0001 C CNN
-	1    9950 5450
+P 9950 5650
+F 0 "#PWR0103" H 9950 5500 50  0001 C CNN
+F 1 "+3.3V" V 9965 5778 50  0000 L CNN
+F 2 "" H 9950 5650 50  0001 C CNN
+F 3 "" H 9950 5650 50  0001 C CNN
+	1    9950 5650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9950 5450 9800 5450
-Text Label 9800 5250 0    50   ~ 0
+	9950 5650 9800 5650
+Text Label 9800 5450 0    50   ~ 0
 pot
-Text Label 9800 5150 0    50   ~ 0
+Text Label 9800 5350 0    50   ~ 0
 sw1
-Text Label 9800 5050 0    50   ~ 0
+Text Label 9800 5250 0    50   ~ 0
 sw2
-Text Label 9800 4950 0    50   ~ 0
+Text Label 9800 5150 0    50   ~ 0
 sw3
-Text Label 9800 4850 0    50   ~ 0
+Text Label 9800 5050 0    50   ~ 0
 sw4
-Text Label 9800 4550 0    50   ~ 0
-sw5
-Text Label 9800 4650 0    50   ~ 0
-sw6
 Text Label 9800 4750 0    50   ~ 0
+sw5
+Text Label 9800 4850 0    50   ~ 0
+sw6
+Text Label 9800 4950 0    50   ~ 0
 led9
 $Comp
 L power:+5V #PWR0104
 U 1 1 5C735985
-P 9800 4450
-F 0 "#PWR0104" H 9800 4300 50  0001 C CNN
-F 1 "+5V" V 9815 4578 50  0000 L CNN
-F 2 "" H 9800 4450 50  0001 C CNN
-F 3 "" H 9800 4450 50  0001 C CNN
-	1    9800 4450
+P 9800 4650
+F 0 "#PWR0104" H 9800 4500 50  0001 C CNN
+F 1 "+5V" V 9815 4778 50  0000 L CNN
+F 2 "" H 9800 4650 50  0001 C CNN
+F 3 "" H 9800 4650 50  0001 C CNN
+	1    9800 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5C735B12
-P 9900 4250
-F 0 "#PWR0105" H 9900 4000 50  0001 C CNN
-F 1 "GND" V 9905 4122 50  0000 R CNN
-F 2 "" H 9900 4250 50  0001 C CNN
-F 3 "" H 9900 4250 50  0001 C CNN
-	1    9900 4250
+P 9900 4450
+F 0 "#PWR0105" H 9900 4200 50  0001 C CNN
+F 1 "GND" V 9905 4322 50  0000 R CNN
+F 2 "" H 9900 4450 50  0001 C CNN
+F 3 "" H 9900 4450 50  0001 C CNN
+	1    9900 4450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9800 4250 9900 4250
+	9800 4450 9900 4450
 Text Label 9000 1550 2    50   ~ 0
 rx
 Text Label 9000 1650 2    50   ~ 0
@@ -767,17 +767,17 @@ Text Label 10000 1650 0    50   ~ 0
 reset
 Text Label 9400 1150 0    50   ~ 0
 vin
-Text Label 8900 4150 2    50   ~ 0
-tx
-Text Label 8900 4250 2    50   ~ 0
-rx
 Text Label 8900 4350 2    50   ~ 0
+tx
+Text Label 8900 4450 2    50   ~ 0
+rx
+Text Label 8900 4550 2    50   ~ 0
 reset
 Text Label 10000 1950 0    50   ~ 0
 aref
-Text Label 9800 5350 0    50   ~ 0
+Text Label 9800 5550 0    50   ~ 0
 aref
-Text Label 9800 4150 0    50   ~ 0
+Text Label 9800 4350 0    50   ~ 0
 vin
 $Comp
 L Device:LED_BGRA D1
@@ -867,18 +867,18 @@ F 3 "~" H 4500 2150 50  0001 C CNN
 	1    4500 2200
 	0    -1   1    0   
 $EndComp
-Text Label 9800 4350 0    50   ~ 0
+Text Label 9800 4550 0    50   ~ 0
 reset
 Wire Notes Line
-	8450 5950 10400 5950
-Text Notes 9100 4000 0    50   ~ 0
+	8450 6150 10400 6150
+Text Notes 9100 4200 0    50   ~ 0
 Debug pinout
 Wire Notes Line
-	8450 3900 10400 3900
+	8450 4100 10400 4100
 Wire Notes Line
-	8450 3900 8450 5950
+	8450 4100 8450 6150
 Wire Notes Line
-	10400 3900 10400 5950
+	10400 4100 10400 6150
 Text Notes 4750 4200 0    50   ~ 0
 Push switches
 Wire Notes Line
