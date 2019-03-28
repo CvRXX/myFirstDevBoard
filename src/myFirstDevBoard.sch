@@ -405,11 +405,11 @@ Wire Wire Line
 Text Label 7300 2350 3    50   ~ 0
 blue
 Text Label 8650 2650 2    50   ~ 0
-blue
-Text Label 8650 2750 2    50   ~ 0
-green
-Text Label 8650 2850 2    50   ~ 0
 red
+Text Label 8650 2750 2    50   ~ 0
+blue
+Text Label 8650 2850 2    50   ~ 0
+green
 Text Label 5600 4500 2    50   ~ 0
 sw1
 Text Label 5600 4900 2    50   ~ 0
