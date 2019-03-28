@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Schematic for My First Dev Board"
+Title "My First Dev Board"
 Date "2019-03-28"
-Rev "V0.3"
+Rev "V0.03"
 Comp "University of Applied Sciences Utrecht"
 Comment1 "HBO - ICT Computer engineering"
 Comment2 ""
