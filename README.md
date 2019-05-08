@@ -1,6 +1,6 @@
 # My first devboard
 
-This devboard is meant to teach computer engineering students of the university of applied sciences to solder and to give them a learning platform to learn embeddded C++.
+This devboard is meant to teach computer engineering students of the university of applied sciences to solder and to give them a learning platform to learn embeddded C++. This project is open source and can be found on github: github.com/CvRXX/myFirstDevBoard
 
 ![The board](board.jpg)
 
