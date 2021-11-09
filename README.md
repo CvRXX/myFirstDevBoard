@@ -31,7 +31,7 @@ The one thing that I hate most about of the arduino nano is that they lack a boo
 
 After that you can use the arduino IDE to flash the board. The students from Utrecht are required to use bmptk & hwlib. 
 
-To find out what is connected to what please read the schematic that's included. You can open this with the free opensource program called kicad (http://kicad-pcb.org/).
+To find out what is connected to what please read the schematic that's included. You can open this with the free opensource program called kicad (http://kicad.org/).
 
 ## I still run into problems, what now?
 If you are a student from Utrecht you can go into the turing lab and ask Carlos, Florian or Wouter. If Utrecht is a bit far away from you feel free to email me : myfirstdevboard {at} carlosvanrooijen.nl
